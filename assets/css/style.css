@@ -131,10 +131,11 @@ div {
 
 .portfolio {
     margin: auto;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 20px;
     width: 960px;
     background-color: #ffffff;
+    padding: 50px;
 }
 
 .div {
@@ -146,6 +147,8 @@ img {
     max-height: 100%;
     margin: 10px;
     float: left;
+    width:400px;
+    height: 500px;
 }
 
 .img3 {
@@ -158,4 +161,23 @@ img {
 
 .navbar-nav {
     float: right;
+}
+
+#psychic{
+    width:300px;
+    height: 300px;
+}
+
+#giftastic{
+    width:500px;
+    height: 400px;
+}
+
+#CrystalsCollector{
+    width:400px;
+    height: 600px;
+}
+
+#myheader {
+    margin: 70px;
 }
