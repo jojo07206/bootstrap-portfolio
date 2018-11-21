@@ -36,7 +36,7 @@ p {
 }
 
 .footer{
-    height: 60px;
+    height: 90px;
     border-right-width: 0px;
     border-left-width: 0px;
     border-bottom-width: 0px;
@@ -180,4 +180,73 @@ img {
 
 #myheader {
     margin: 70px;
+}
+
+@media only screen and (max-width: 980px) {
+    .aboutme {
+        width: 600px;
+    }
+    .contact {
+        width: 600px;
+    }
+    .message {
+        width: 550px;
+    }
+    .name {
+        width: 550px;
+    }
+    .email {
+        width: 550px;
+    }
+    .portfolio {
+        width: 700px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .aboutme {
+        width: 400px;
+    }
+    .contact {
+        width: 400px;
+    }
+    .message {
+        width: 360px;
+    }
+    .name {
+        width: 360px;
+    }
+    .email {
+        width: 360px;
+    }
+    .portfolio {
+        width: 600px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .heading {
+        margin: auto;
+    }
+    .aboutme {
+        width: 290px;
+    }
+    .contact {
+        width: 300px;
+    }
+    .message {
+        width: 270px;
+    }
+    .name {
+        width: 270px;
+    }
+    .email {
+        width: 270px;
+    }
+    form {
+           margin-bottom: 0px; 
+    }
+    .portfolio {
+        width: 350px;
+    }
 }
