@@ -182,6 +182,11 @@ img {
     margin: 70px;
 }
 
+#breakfastfinder {
+    width: 800px;
+    height: 400px;
+}
+
 @media only screen and (max-width: 980px) {
     .aboutme {
         width: 600px;
